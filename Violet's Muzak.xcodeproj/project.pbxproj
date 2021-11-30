@@ -9,13 +9,10 @@
 /* Begin PBXBuildFile section */
 		CFC9E53F2755C96E005B9763 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC9E53E2755C96E005B9763 /* AppDelegate.swift */; };
 		CFC9E5412755C96E005B9763 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC9E5402755C96E005B9763 /* SceneDelegate.swift */; };
-		CFC9E5432755C96E005B9763 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC9E5422755C96E005B9763 /* ViewController.swift */; };
-		CFC9E5462755C96E005B9763 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFC9E5442755C96E005B9763 /* Main.storyboard */; };
 		CFC9E5482755C96F005B9763 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFC9E5472755C96F005B9763 /* Assets.xcassets */; };
 		CFC9E54B2755C96F005B9763 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFC9E5492755C96F005B9763 /* LaunchScreen.storyboard */; };
-		CFC9E5562755C96F005B9763 /* Violet_s_MuzakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC9E5552755C96F005B9763 /* Violet_s_MuzakTests.swift */; };
-		CFC9E5602755C96F005B9763 /* Violet_s_MuzakUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC9E55F2755C96F005B9763 /* Violet_s_MuzakUITests.swift */; };
-		CFC9E5622755C96F005B9763 /* Violet_s_MuzakUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC9E5612755C96F005B9763 /* Violet_s_MuzakUITestsLaunchTests.swift */; };
+		CFC9E56F275602BC005B9763 /* GenreButtonScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC9E56E275602BC005B9763 /* GenreButtonScreen.swift */; };
+		CFC9E57127560524005B9763 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFC9E57027560524005B9763 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,16 +36,13 @@
 		CFC9E53B2755C96E005B9763 /* Violet's Muzak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Violet's Muzak.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFC9E53E2755C96E005B9763 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CFC9E5402755C96E005B9763 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CFC9E5422755C96E005B9763 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CFC9E5452755C96E005B9763 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CFC9E5472755C96F005B9763 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFC9E54A2755C96F005B9763 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CFC9E54C2755C96F005B9763 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CFC9E5512755C96F005B9763 /* Violet's MuzakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Violet's MuzakTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFC9E5552755C96F005B9763 /* Violet_s_MuzakTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Violet_s_MuzakTests.swift; sourceTree = "<group>"; };
 		CFC9E55B2755C96F005B9763 /* Violet's MuzakUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Violet's MuzakUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFC9E55F2755C96F005B9763 /* Violet_s_MuzakUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Violet_s_MuzakUITests.swift; sourceTree = "<group>"; };
-		CFC9E5612755C96F005B9763 /* Violet_s_MuzakUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Violet_s_MuzakUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CFC9E56E275602BC005B9763 /* GenreButtonScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreButtonScreen.swift; sourceTree = "<group>"; };
+		CFC9E57027560524005B9763 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				CFC9E53D2755C96E005B9763 /* Violet's Muzak */,
-				CFC9E5542755C96F005B9763 /* Violet's MuzakTests */,
-				CFC9E55E2755C96F005B9763 /* Violet's MuzakUITests */,
 				CFC9E53C2755C96E005B9763 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,30 +93,13 @@
 			children = (
 				CFC9E53E2755C96E005B9763 /* AppDelegate.swift */,
 				CFC9E5402755C96E005B9763 /* SceneDelegate.swift */,
-				CFC9E5422755C96E005B9763 /* ViewController.swift */,
-				CFC9E5442755C96E005B9763 /* Main.storyboard */,
+				CFC9E56E275602BC005B9763 /* GenreButtonScreen.swift */,
+				CFC9E57027560524005B9763 /* Main.storyboard */,
 				CFC9E5472755C96F005B9763 /* Assets.xcassets */,
 				CFC9E5492755C96F005B9763 /* LaunchScreen.storyboard */,
 				CFC9E54C2755C96F005B9763 /* Info.plist */,
 			);
 			path = "Violet's Muzak";
-			sourceTree = "<group>";
-		};
-		CFC9E5542755C96F005B9763 /* Violet's MuzakTests */ = {
-			isa = PBXGroup;
-			children = (
-				CFC9E5552755C96F005B9763 /* Violet_s_MuzakTests.swift */,
-			);
-			path = "Violet's MuzakTests";
-			sourceTree = "<group>";
-		};
-		CFC9E55E2755C96F005B9763 /* Violet's MuzakUITests */ = {
-			isa = PBXGroup;
-			children = (
-				CFC9E55F2755C96F005B9763 /* Violet_s_MuzakUITests.swift */,
-				CFC9E5612755C96F005B9763 /* Violet_s_MuzakUITestsLaunchTests.swift */,
-			);
-			path = "Violet's MuzakUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +208,7 @@
 			files = (
 				CFC9E54B2755C96F005B9763 /* LaunchScreen.storyboard in Resources */,
 				CFC9E5482755C96F005B9763 /* Assets.xcassets in Resources */,
-				CFC9E5462755C96E005B9763 /* Main.storyboard in Resources */,
+				CFC9E57127560524005B9763 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +233,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFC9E5432755C96E005B9763 /* ViewController.swift in Sources */,
 				CFC9E53F2755C96E005B9763 /* AppDelegate.swift in Sources */,
 				CFC9E5412755C96E005B9763 /* SceneDelegate.swift in Sources */,
+				CFC9E56F275602BC005B9763 /* GenreButtonScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +243,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFC9E5562755C96F005B9763 /* Violet_s_MuzakTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +250,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFC9E5622755C96F005B9763 /* Violet_s_MuzakUITestsLaunchTests.swift in Sources */,
-				CFC9E5602755C96F005B9763 /* Violet_s_MuzakUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +269,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CFC9E5442755C96E005B9763 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CFC9E5452755C96E005B9763 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CFC9E5492755C96F005B9763 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -437,6 +401,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4223N7BH9M;
@@ -445,6 +410,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -454,6 +420,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "co.love.Violet-s-Muzak";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -465,6 +432,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4223N7BH9M;
@@ -473,6 +441,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -482,6 +451,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "co.love.Violet-s-Muzak";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
