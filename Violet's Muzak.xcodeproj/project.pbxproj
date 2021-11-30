@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFC9E53F2755C96E005B9763 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC9E53E2755C96E005B9763 /* AppDelegate.swift */; };
+		CFC9E5412755C96E005B9763 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC9E5402755C96E005B9763 /* SceneDelegate.swift */; };
+		CFC9E5432755C96E005B9763 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC9E5422755C96E005B9763 /* ViewController.swift */; };
+		CFC9E5462755C96E005B9763 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFC9E5442755C96E005B9763 /* Main.storyboard */; };
+		CFC9E5482755C96F005B9763 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFC9E5472755C96F005B9763 /* Assets.xcassets */; };
+		CFC9E54B2755C96F005B9763 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFC9E5492755C96F005B9763 /* LaunchScreen.storyboard */; };
+		CFC9E5562755C96F005B9763 /* Violet_s_MuzakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC9E5552755C96F005B9763 /* Violet_s_MuzakTests.swift */; };
+		CFC9E5602755C96F005B9763 /* Violet_s_MuzakUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC9E55F2755C96F005B9763 /* Violet_s_MuzakUITests.swift */; };
+		CFC9E5622755C96F005B9763 /* Violet_s_MuzakUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC9E5612755C96F005B9763 /* Violet_s_MuzakUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFC9E5522755C96F005B9763 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFC9E5332755C96D005B9763 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFC9E53A2755C96E005B9763;
+			remoteInfo = "Violet's Muzak";
+		};
+		CFC9E55C2755C96F005B9763 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFC9E5332755C96D005B9763 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFC9E53A2755C96E005B9763;
+			remoteInfo = "Violet's Muzak";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFC9E53B2755C96E005B9763 /* Violet's Muzak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Violet's Muzak.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFC9E53E2755C96E005B9763 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFC9E5402755C96E005B9763 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CFC9E5422755C96E005B9763 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CFC9E5452755C96E005B9763 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFC9E5472755C96F005B9763 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFC9E54A2755C96F005B9763 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFC9E54C2755C96F005B9763 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFC9E5512755C96F005B9763 /* Violet's MuzakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Violet's MuzakTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFC9E5552755C96F005B9763 /* Violet_s_MuzakTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Violet_s_MuzakTests.swift; sourceTree = "<group>"; };
+		CFC9E55B2755C96F005B9763 /* Violet's MuzakUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Violet's MuzakUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFC9E55F2755C96F005B9763 /* Violet_s_MuzakUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Violet_s_MuzakUITests.swift; sourceTree = "<group>"; };
+		CFC9E5612755C96F005B9763 /* Violet_s_MuzakUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Violet_s_MuzakUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFC9E5382755C96E005B9763 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFC9E54E2755C96F005B9763 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFC9E5582755C96F005B9763 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFC9E5322755C96D005B9763 = {
+			isa = PBXGroup;
+			children = (
+				CFC9E53D2755C96E005B9763 /* Violet's Muzak */,
+				CFC9E5542755C96F005B9763 /* Violet's MuzakTests */,
+				CFC9E55E2755C96F005B9763 /* Violet's MuzakUITests */,
+				CFC9E53C2755C96E005B9763 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFC9E53C2755C96E005B9763 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFC9E53B2755C96E005B9763 /* Violet's Muzak.app */,
+				CFC9E5512755C96F005B9763 /* Violet's MuzakTests.xctest */,
+				CFC9E55B2755C96F005B9763 /* Violet's MuzakUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFC9E53D2755C96E005B9763 /* Violet's Muzak */ = {
+			isa = PBXGroup;
+			children = (
+				CFC9E53E2755C96E005B9763 /* AppDelegate.swift */,
+				CFC9E5402755C96E005B9763 /* SceneDelegate.swift */,
+				CFC9E5422755C96E005B9763 /* ViewController.swift */,
+				CFC9E5442755C96E005B9763 /* Main.storyboard */,
+				CFC9E5472755C96F005B9763 /* Assets.xcassets */,
+				CFC9E5492755C96F005B9763 /* LaunchScreen.storyboard */,
+				CFC9E54C2755C96F005B9763 /* Info.plist */,
+			);
+			path = "Violet's Muzak";
+			sourceTree = "<group>";
+		};
+		CFC9E5542755C96F005B9763 /* Violet's MuzakTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFC9E5552755C96F005B9763 /* Violet_s_MuzakTests.swift */,
+			);
+			path = "Violet's MuzakTests";
+			sourceTree = "<group>";
+		};
+		CFC9E55E2755C96F005B9763 /* Violet's MuzakUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFC9E55F2755C96F005B9763 /* Violet_s_MuzakUITests.swift */,
+				CFC9E5612755C96F005B9763 /* Violet_s_MuzakUITestsLaunchTests.swift */,
+			);
+			path = "Violet's MuzakUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFC9E53A2755C96E005B9763 /* Violet's Muzak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFC9E5652755C96F005B9763 /* Build configuration list for PBXNativeTarget "Violet's Muzak" */;
+			buildPhases = (
+				CFC9E5372755C96E005B9763 /* Sources */,
+				CFC9E5382755C96E005B9763 /* Frameworks */,
+				CFC9E5392755C96E005B9763 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Violet's Muzak";
+			productName = "Violet's Muzak";
+			productReference = CFC9E53B2755C96E005B9763 /* Violet's Muzak.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFC9E5502755C96F005B9763 /* Violet's MuzakTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFC9E5682755C96F005B9763 /* Build configuration list for PBXNativeTarget "Violet's MuzakTests" */;
+			buildPhases = (
+				CFC9E54D2755C96F005B9763 /* Sources */,
+				CFC9E54E2755C96F005B9763 /* Frameworks */,
+				CFC9E54F2755C96F005B9763 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFC9E5532755C96F005B9763 /* PBXTargetDependency */,
+			);
+			name = "Violet's MuzakTests";
+			productName = "Violet's MuzakTests";
+			productReference = CFC9E5512755C96F005B9763 /* Violet's MuzakTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFC9E55A2755C96F005B9763 /* Violet's MuzakUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFC9E56B2755C96F005B9763 /* Build configuration list for PBXNativeTarget "Violet's MuzakUITests" */;
+			buildPhases = (
+				CFC9E5572755C96F005B9763 /* Sources */,
+				CFC9E5582755C96F005B9763 /* Frameworks */,
+				CFC9E5592755C96F005B9763 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFC9E55D2755C96F005B9763 /* PBXTargetDependency */,
+			);
+			name = "Violet's MuzakUITests";
+			productName = "Violet's MuzakUITests";
+			productReference = CFC9E55B2755C96F005B9763 /* Violet's MuzakUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFC9E5332755C96D005B9763 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					CFC9E53A2755C96E005B9763 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					CFC9E5502755C96F005B9763 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = CFC9E53A2755C96E005B9763;
+					};
+					CFC9E55A2755C96F005B9763 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = CFC9E53A2755C96E005B9763;
+					};
+				};
+			};
+			buildConfigurationList = CFC9E5362755C96D005B9763 /* Build configuration list for PBXProject "Violet's Muzak" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFC9E5322755C96D005B9763;
+			productRefGroup = CFC9E53C2755C96E005B9763 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFC9E53A2755C96E005B9763 /* Violet's Muzak */,
+				CFC9E5502755C96F005B9763 /* Violet's MuzakTests */,
+				CFC9E55A2755C96F005B9763 /* Violet's MuzakUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFC9E5392755C96E005B9763 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFC9E54B2755C96F005B9763 /* LaunchScreen.storyboard in Resources */,
+				CFC9E5482755C96F005B9763 /* Assets.xcassets in Resources */,
+				CFC9E5462755C96E005B9763 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFC9E54F2755C96F005B9763 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFC9E5592755C96F005B9763 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFC9E5372755C96E005B9763 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFC9E5432755C96E005B9763 /* ViewController.swift in Sources */,
+				CFC9E53F2755C96E005B9763 /* AppDelegate.swift in Sources */,
+				CFC9E5412755C96E005B9763 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFC9E54D2755C96F005B9763 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFC9E5562755C96F005B9763 /* Violet_s_MuzakTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFC9E5572755C96F005B9763 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFC9E5622755C96F005B9763 /* Violet_s_MuzakUITestsLaunchTests.swift in Sources */,
+				CFC9E5602755C96F005B9763 /* Violet_s_MuzakUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFC9E5532755C96F005B9763 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFC9E53A2755C96E005B9763 /* Violet's Muzak */;
+			targetProxy = CFC9E5522755C96F005B9763 /* PBXContainerItemProxy */;
+		};
+		CFC9E55D2755C96F005B9763 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFC9E53A2755C96E005B9763 /* Violet's Muzak */;
+			targetProxy = CFC9E55C2755C96F005B9763 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFC9E5442755C96E005B9763 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFC9E5452755C96E005B9763 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFC9E5492755C96F005B9763 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFC9E54A2755C96F005B9763 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFC9E5632755C96F005B9763 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFC9E5642755C96F005B9763 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFC9E5662755C96F005B9763 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4223N7BH9M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Violet's Muzak/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.love.Violet-s-Muzak";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFC9E5672755C96F005B9763 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4223N7BH9M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Violet's Muzak/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.love.Violet-s-Muzak";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CFC9E5692755C96F005B9763 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4223N7BH9M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.love.Violet-s-MuzakTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Violet's Muzak.app/Violet's Muzak";
+			};
+			name = Debug;
+		};
+		CFC9E56A2755C96F005B9763 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4223N7BH9M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.love.Violet-s-MuzakTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Violet's Muzak.app/Violet's Muzak";
+			};
+			name = Release;
+		};
+		CFC9E56C2755C96F005B9763 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4223N7BH9M;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.love.Violet-s-MuzakUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Violet's Muzak";
+			};
+			name = Debug;
+		};
+		CFC9E56D2755C96F005B9763 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4223N7BH9M;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.love.Violet-s-MuzakUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Violet's Muzak";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFC9E5362755C96D005B9763 /* Build configuration list for PBXProject "Violet's Muzak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC9E5632755C96F005B9763 /* Debug */,
+				CFC9E5642755C96F005B9763 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFC9E5652755C96F005B9763 /* Build configuration list for PBXNativeTarget "Violet's Muzak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC9E5662755C96F005B9763 /* Debug */,
+				CFC9E5672755C96F005B9763 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFC9E5682755C96F005B9763 /* Build configuration list for PBXNativeTarget "Violet's MuzakTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC9E5692755C96F005B9763 /* Debug */,
+				CFC9E56A2755C96F005B9763 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFC9E56B2755C96F005B9763 /* Build configuration list for PBXNativeTarget "Violet's MuzakUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC9E56C2755C96F005B9763 /* Debug */,
+				CFC9E56D2755C96F005B9763 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFC9E5332755C96D005B9763 /* Project object */;
+}
